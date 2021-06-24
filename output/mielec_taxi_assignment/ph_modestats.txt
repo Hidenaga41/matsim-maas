@@ -1,0 +1,11 @@
+Iteration	stageActivity_travel	stageActivity_wait	taxi_travel	taxi_wait
+0	0	0	233	444
+1	0	0	233	454
+2	0	0	233	446
+3	0	0	233	460
+4	0	0	233	455
+5	0	0	233	442
+6	0	0	233	459
+7	0	0	233	453
+8	0	0	233	456
+9	0	0	233	451

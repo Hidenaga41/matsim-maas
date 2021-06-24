@@ -1,0 +1,52 @@
+2021-06-23T14:53:32,208  WARN PrepareForSimImpl:222 'usePersonIdForMissingVehicleId' is deprecated. It will be removed soon.
+2021-06-23T14:53:32,278  WARN PreProcessEuclidean:59 There are links with stored length smaller than their Euclidean distance in this network. Thus, A* cannot guarantee to calculate the least-cost paths between two nodes.
+2021-06-23T14:53:32,318  WARN RandomizingTimeDistanceTravelDisutilityFactory:112 There will be no routing randomness. The randomization of the travel disutility requires the monetary distance rate to be different than zero. Continuing anyway.
+2021-06-23T14:53:32,318  WARN RandomizingTimeDistanceTravelDisutilityFactory:117 There will be no routing randomness. The randomization of the travel disutility requires the travel time cost rate to be different than zero. Continuing anyway.
+2021-06-23T14:53:32,321  WARN PreProcessEuclidean:59 There are links with stored length smaller than their Euclidean distance in this network. Thus, A* cannot guarantee to calculate the least-cost paths between two nodes.
+2021-06-23T14:53:32,343  WARN PreProcessEuclidean:59 There are links with stored length smaller than their Euclidean distance in this network. Thus, A* cannot guarantee to calculate the least-cost paths between two nodes.
+2021-06-23T14:53:32,745  WARN PreProcessEuclidean:59 There are links with stored length smaller than their Euclidean distance in this network. Thus, A* cannot guarantee to calculate the least-cost paths between two nodes.
+2021-06-23T14:53:32,759  WARN PreProcessEuclidean:59 There are links with stored length smaller than their Euclidean distance in this network. Thus, A* cannot guarantee to calculate the least-cost paths between two nodes.
+2021-06-23T14:53:32,804  WARN EditTrips:111 no TransitStopAgentTracker found in qsim. Replanning of pt/transit legs will not work properly and will likely fail.
+2021-06-23T14:53:33,472 ERROR MatsimRuntimeModifications$1:62 Getting uncaught Exception in Thread AWT-EventQueue-0
+java.lang.UnsatisfiedLinkError: /var/folders/w8/4qsqhfn11sx0cfzdhx66mv_m0000gn/T/jogamp_0000/file_cache/jln13111760989613264563/jln17512608144626460031/natives/macosx-universal/libnativewindow_awt.dylib (dlopen(/var/folders/w8/4qsqhfn11sx0cfzdhx66mv_m0000gn/T/jogamp_0000/file_cache/jln13111760989613264563/jln17512608144626460031/natives/macosx-universal/libnativewindow_awt.dylib, 1): Library not loaded: @rpath/libjawt.dylib   Referenced from: /var/folders/w8/4qsqhfn11sx0cfzdhx66mv_m0000gn/T/jogamp_0000/file_cache/jln13111760989613264563/jln17512608144626460031/natives/macosx-universal/libnativewindow_awt.dylib   Reason: image not found)
+	at java.lang.ClassLoader.loadLibraryWithPath(ClassLoader.java:1742) ~[?:?]
+	at java.lang.System.load(System.java:586) ~[?:?]
+	at com.jogamp.common.jvm.JNILibLoaderBase.loadLibraryInternal(JNILibLoaderBase.java:604) ~[gluegen-rt-2.4.0-matsim-1.jar:2.4.0-rc-20200306]
+	at com.jogamp.common.jvm.JNILibLoaderBase.access$000(JNILibLoaderBase.java:64) ~[gluegen-rt-2.4.0-matsim-1.jar:2.4.0-rc-20200306]
+	at com.jogamp.common.jvm.JNILibLoaderBase$DefaultAction.loadLibrary(JNILibLoaderBase.java:107) ~[gluegen-rt-2.4.0-matsim-1.jar:2.4.0-rc-20200306]
+	at com.jogamp.common.jvm.JNILibLoaderBase.loadLibrary(JNILibLoaderBase.java:488) ~[gluegen-rt-2.4.0-matsim-1.jar:2.4.0-rc-20200306]
+	at jogamp.nativewindow.NWJNILibLoader.access$000(NWJNILibLoader.java:39) ~[jogl-all-2.4.0-matsim-1.jar:2.4.0-rc-20200306]
+	at jogamp.nativewindow.NWJNILibLoader$1.run(NWJNILibLoader.java:49) ~[jogl-all-2.4.0-matsim-1.jar:2.4.0-rc-20200306]
+	at jogamp.nativewindow.NWJNILibLoader$1.run(NWJNILibLoader.java:41) ~[jogl-all-2.4.0-matsim-1.jar:2.4.0-rc-20200306]
+	at java.security.AccessController.doPrivileged(AccessController.java:682) ~[?:?]
+	at jogamp.nativewindow.NWJNILibLoader.loadNativeWindow(NWJNILibLoader.java:41) ~[jogl-all-2.4.0-matsim-1.jar:2.4.0-rc-20200306]
+	at jogamp.nativewindow.jawt.JAWTUtil.<clinit>(JAWTUtil.java:345) ~[jogl-all-2.4.0-matsim-1.jar:2.4.0-rc-20200306]
+	at java.lang.Class.forNameImpl(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:407) ~[?:?]
+	at com.jogamp.nativewindow.NativeWindowFactory$2.run(NativeWindowFactory.java:405) ~[jogl-all-2.4.0-matsim-1.jar:2.4.0-rc-20200306]
+	at com.jogamp.nativewindow.NativeWindowFactory$2.run(NativeWindowFactory.java:401) ~[jogl-all-2.4.0-matsim-1.jar:2.4.0-rc-20200306]
+	at java.security.AccessController.doPrivileged(AccessController.java:682) ~[?:?]
+	at com.jogamp.nativewindow.NativeWindowFactory.initSingleton(NativeWindowFactory.java:401) ~[jogl-all-2.4.0-matsim-1.jar:2.4.0-rc-20200306]
+	at com.jogamp.opengl.GLProfile.initProfilesForDefaultDevices(GLProfile.java:1742) ~[jogl-all-2.4.0-matsim-1.jar:2.4.0-rc-20200306]
+	at com.jogamp.opengl.GLProfile.access$000(GLProfile.java:80) ~[jogl-all-2.4.0-matsim-1.jar:2.4.0-rc-20200306]
+	at com.jogamp.opengl.GLProfile$1.run(GLProfile.java:239) ~[jogl-all-2.4.0-matsim-1.jar:2.4.0-rc-20200306]
+	at java.security.AccessController.doPrivileged(AccessController.java:682) ~[?:?]
+	at com.jogamp.opengl.GLProfile.initSingleton(GLProfile.java:225) ~[jogl-all-2.4.0-matsim-1.jar:2.4.0-rc-20200306]
+	at com.jogamp.opengl.GLProfile.getProfileMap(GLProfile.java:2324) ~[jogl-all-2.4.0-matsim-1.jar:2.4.0-rc-20200306]
+	at com.jogamp.opengl.GLProfile.get(GLProfile.java:1009) ~[jogl-all-2.4.0-matsim-1.jar:2.4.0-rc-20200306]
+	at com.jogamp.opengl.GLProfile.get(GLProfile.java:1025) ~[jogl-all-2.4.0-matsim-1.jar:2.4.0-rc-20200306]
+	at org.matsim.vis.otfvis.opengl.drawer.OTFOGLDrawer.createGLCanvas(OTFOGLDrawer.java:329) ~[otfvis-14.0-PR1452.jar:?]
+	at org.matsim.vis.otfvis.OTFClientLive$1.run(OTFClientLive.java:78) ~[otfvis-14.0-PR1452.jar:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:708) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:740) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]

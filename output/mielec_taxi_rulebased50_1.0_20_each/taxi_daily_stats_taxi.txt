@@ -1,0 +1,2 @@
+iter		PassWaitTime_avg	PassWaitTime_sd	PassWaitTime_95%ile	PassWaitTime_max		EmptyDriveRatio_fleetAvg	EmptyDriveRatio_avg	EmptyDriveRatio_sd		StayRatio_fleetAvg	StayRatio_avg	StayRatio_sd		OccupDriveRatio_fleetAvg
+0		97.4	79.2	265	411		0.2193	0.2160	0.0475		0.9389	0.9389	0.0254		0.0338
