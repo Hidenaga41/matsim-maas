@@ -33,7 +33,7 @@
 
 	<module name="plans">
 		<!-- param name="inputPlansFile" value="plans_only_taxi_1.0.xml.gz" / -->
-		<param name="inputPlansFile" value="plans_only_taxi_4.0.xml.gz"/>
+		<param name="inputPlansFile" value="plans_only_taxi_3.0.xml.gz"/>
 	</module>
 
 	<module name="qsim">
@@ -48,7 +48,7 @@
 	</module>
 
 	<module name="controler">
-		<param name="outputDirectory" value="output/mielec_taxi_assignment"/>
+		<param name="outputDirectory" value="output/mielec_taxi_assignment_3.0"/>
 		<param name="overwriteFiles" value="deleteDirectoryIfExists"/>
 		<param name="firstIteration" value="0"/>
 		<param name="lastIteration" value="0"/>

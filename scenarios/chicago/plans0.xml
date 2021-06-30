@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE population SYSTEM "http://www.matsim.org/files/dtd/population_v5.dtd">
+
+<population>
+	<!-- ====================================================================== -->
+
+	<person id="0">
+		<plan selected="yes">
+			<act type="dummy" link="2103286300000f" end_time="00:00:00"/>
+			<leg mode="taxi">
+				<route type="generic" start_link="2103286300000f" end_link="2094064510000f" trav_time="undefined" distance="NaN"></route>
+			</leg>
+			<act type="dummy" link="2094064510000f"/>
+		</plan>
+	</person>
+
+	<!-- ====================================================================== -->
+
+	<person id="1">
+		<plan selected="yes">
+			<act type="dummy" link="1635001230000f" end_time="00:00:00"/>
+			<leg mode="taxi">
+				<route type="generic" start_link="1635001230000f" end_link="2103258990000f" trav_time="undefined" distance="NaN"></route>
+			</leg>
+			<act type="dummy" link="2103258990000f"/>
+		</plan>
+	</person>
+
+	<!-- ====================================================================== -->
+
+	<person id="2">
+		<plan selected="yes">
+			<act type="dummy" link="2103286300000f" end_time="00:00:00"/>
+			<leg mode="taxi">
+				<route type="generic" start_link="2103286300000f" end_link="2744633170000f" trav_time="undefined" distance="NaN"></route>
+			</leg>
+			<act type="dummy" link="2744633170000f"/>
+		</plan>
+	</person>
+
+</population>

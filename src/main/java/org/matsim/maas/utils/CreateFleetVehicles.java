@@ -47,14 +47,16 @@ public class CreateFleetVehicles {
 	 * Adjust these variables and paths to your need.
 	 */
 
-	private static final int numberOfVehicles = 1500;
+	private static final int numberOfVehicles = 1000;
 	private static final int seatsPerVehicle = 6; //this is important for DRT, value is not used by taxi
 	private static final double operationStartTime = 0;
 	private static final double operationEndTime = 24 * 60 * 60; //24h
 	private static final Random random = MatsimRandom.getRandom();
 
-	private static final Path networkFile = Paths.get("scenarios/cottbus/network.xml.gz");
-	private static final Path outputFile = Paths.get("fleetVehicles.xml");
+	private static final Path networkFile = Paths.get("scenarios/chicago/Chicago.xml");
+	private static final Path outputFile = Paths.get("scenarios/chicago/Chicago_vehicles.xml");
+//	private static final Path networkFile = Paths.get("scenarios/cottbus/network.xml.gz");
+//	private static final Path outputFile = Paths.get("fleetVehicles.xml");
 
 	public static void main(String[] args) {
 
@@ -71,7 +73,7 @@ public class CreateFleetVehicles {
 				.sorted((e1, e2) -> (random.nextInt(2) - 1)) // shuffle links
 				.limit(numberOfVehicles) // select the first *numberOfVehicles* links
 				.map(entry -> ImmutableDvrpVehicleSpecification.newBuilder()
-						.id(Id.create("drt_" + i[0]++, DvrpVehicle.class))
+						.id(Id.create("taxi_" + i[0]++, DvrpVehicle.class))
 						.startLinkId(entry.getKey())
 						.capacity(seatsPerVehicle)
 						.serviceBeginTime(operationStartTime)

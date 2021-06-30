@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE population SYSTEM "http://www.matsim.org/files/dtd/population_v5.dtd">
+
+<population>
+
+	<!-- ====================================================================== -->
+
+	<person id="0000009">
+		<plan selected="yes">
+			<act type="dummy" link="1005202270012f" end_time="12:07:52" />
+			<leg mode="taxi">
+				<route type="generic" start_link="1005202270012f" end_link="1099721350004r" trav_time="undefined" distance="NaN"></route>
+			</leg>
+			<act type="dummy" link="1099721350004r" />
+		</plan>
+	</person>
+</population>
