@@ -34,7 +34,7 @@
 
 	<module name="plans">
 		<!-- param name="inputPlansFile" value="plans_only_taxi_1.0.xml.gz" / -->
-		<param name="inputPlansFile" value="Chicago_plans_scooter.xml"/>
+		<param name="inputPlansFile" value="Chicago_plans_scooter6666.xml"/>
 	</module>
 
 	<module name="qsim">
@@ -49,7 +49,7 @@
 	</module>
 
 	<module name="controler">
-		<param name="outputDirectory" value="output/Chicago190701_scooter"/>
+		<param name="outputDirectory" value="output/Chicago190701_scooter6666"/>
 		<param name="overwriteFiles" value="deleteDirectoryIfExists"/>
 		<param name="firstIteration" value="0"/>
 		<param name="lastIteration" value="0"/>
