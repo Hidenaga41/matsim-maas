@@ -1,0 +1,7 @@
+pattern	0+	5+	10+	15+	20+	25+	30+	35+	40+	45+	50+	55+	60+
+TaxiDropoff---TaxiPickup	269	201	83	7	0	0	0	0	0	0	0	0	0
+TaxiPickup---TaxiDropoff	16690	9234	2531	3984	1342	432	90	40	0	0	0	0	0
+TaxiStay---TaxiPickup	7230	4318	2061	792	286	280	113	21	2	0	0	0	0
+dummy---dummy	965	14608	6985	4243	3204	1636	1450	754	326	112	42	16	2
+
+average trip duration: 610.911712053492 seconds = 00:10:10
